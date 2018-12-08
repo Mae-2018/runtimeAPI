@@ -15,6 +15,8 @@
 		1C52641921B75E7A0027FFA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C52641821B75E7A0027FFA1 /* main.m */; };
 		1C52642321B75E7A0027FFA1 /* runtimeAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C52642221B75E7A0027FFA1 /* runtimeAPITests.m */; };
 		1C52642E21B75E7A0027FFA1 /* runtimeAPIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C52642D21B75E7A0027FFA1 /* runtimeAPIUITests.m */; };
+		1C52646621B949BC0027FFA1 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C52646521B949BC0027FFA1 /* Father.m */; };
+		1C52648621BA8F140027FFA1 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C52648521BA8F140027FFA1 /* Son.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1C52642921B75E7A0027FFA1 /* runtimeAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C52642D21B75E7A0027FFA1 /* runtimeAPIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeAPIUITests.m; sourceTree = "<group>"; };
 		1C52642F21B75E7A0027FFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C52646421B949BC0027FFA1 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		1C52646521B949BC0027FFA1 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		1C52648421BA8F140027FFA1 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		1C52648521BA8F140027FFA1 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1C52640A21B75E780027FFA1 /* AppDelegate.m */,
 				1C52640C21B75E780027FFA1 /* ViewController.h */,
 				1C52640D21B75E780027FFA1 /* ViewController.m */,
+				1C52646421B949BC0027FFA1 /* Father.h */,
+				1C52646521B949BC0027FFA1 /* Father.m */,
+				1C52648421BA8F140027FFA1 /* Son.h */,
+				1C52648521BA8F140027FFA1 /* Son.m */,
 				1C52640F21B75E780027FFA1 /* Main.storyboard */,
 				1C52641221B75E7A0027FFA1 /* Assets.xcassets */,
 				1C52641421B75E7A0027FFA1 /* LaunchScreen.storyboard */,
@@ -263,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C52640E21B75E780027FFA1 /* ViewController.m in Sources */,
+				1C52648621BA8F140027FFA1 /* Son.m in Sources */,
 				1C52641921B75E7A0027FFA1 /* main.m in Sources */,
 				1C52640B21B75E780027FFA1 /* AppDelegate.m in Sources */,
+				1C52646621B949BC0027FFA1 /* Father.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ACF3M69AT;
 				INFOPLIST_FILE = runtimeAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ACF3M69AT;
 				INFOPLIST_FILE = runtimeAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
